@@ -27,4 +27,4 @@ jobs:
         run: docker compose up -d --build
 
       - name: Ejecutar pruebas con pytest
-        run: docker composeexect-T api pytest -v
+        run: docker compose exec -T api pytest -v
